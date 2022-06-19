@@ -1,0 +1,82 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-900">
+    <header class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-gray-300 text-xl">Home</span>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="about.html" class="mr-5 hover:text-gray-50">About</a>
+          <a href="r#registration.html" class="mr-5 hover:text-gray-50">Registration</a>
+          <a href="contact.html" class="mr-5 hover:text-gray-50">Contact</a>
+          <a href="login" class="mr-5 hover:text-gray-50">Login</a>
+        </nav>
+      </div>
+    </header>
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+          <h1 class="title-font font-medium text-3xl text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae nam accusantium officia, mollitia voluptate modi dignissimos, ipsam reiciendis quis doloremque!</h1>
+          <p class="leading-relaxed mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae nam accusantium officia, mollitia voluptate modi dignissimos, ipsam reiciendis quis doloremque! Asperiores iusto eaque maxime blanditiis facere dolore nobis placeat.</p>
+        </div>
+        <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+          <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Login</h2>
+          <div class="relative mb-4">
+            <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+            <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="password" class="leading-7 text-sm text-gray-600">password</label>
+            <input type="password" id="password" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="password" class="leading-7 text-sm text-gray-600">confirm password</label>
+            <input type="password" id="password" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="number" class="leading-7 text-sm text-gray-600">Full Name</label>
+            <input type="number" id="number" value="11" name="number" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="gender" class="leading-7 text-sm text-gray-600">choose gender</label>
+            <select name="gender" id="gender" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+              </select>
+          </div>
+          <div class="relative mb-4">
+          <select name="country" id="country" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="togo">Togo</option>
+            <option value="southafrica">southafrica</option>
+            <option value="mexico">mexico</option>
+            <option value="usa">united state </option>
+            <option value="italy">Italy</option>
+          </select>
+        </div>
+        <div class="relative mb-4">
+            <label for="state" class="leading-7 text-sm text-gray-600">state</label>
+            <input type="text" id="state" name="state" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <button class="text-white bg-slate-900 border-0 py-2 px-8 focus:outline-none hover:bg-slate-700 rounded text-lg">Sign up</button>
+        </div>
+      </div> 
+    </section>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit vitae nam accusantium officia, mollitia voluptate modi dignissimos, ipsam reiciendis quis doloremque! Asperiores iusto eaque maxime blanditiis facere dolore nobis placeat.</h1>
+    </body>
+    </html>
